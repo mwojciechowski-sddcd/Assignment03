@@ -4,9 +4,9 @@ let num = prompt("How many time to loop: ").toLowerCase().trim();
 for(i=0; i<num; i++) {
     coinFlip = Math.round(Math.random());
     if (coinFlip === 0) {
-        console.log("Heads");
+        console.log('Heads');
     }
     else {
-        console.log("Tails");
+        console.log('Tails');
     }
 }
